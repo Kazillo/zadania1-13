@@ -1,0 +1,80 @@
+index.html
+
+<html>
+<head>
+<title>Przykład nr tutaj wpisz odpowiedni nume </title>
+<script language="JavaScript">
+function WinOpen_Konopka()
+{
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen_Konopka(' ')">
+</form>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------
+obraz.html
+
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_Konopka()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<p>
+Teoria: <br>
+a)Uwagi na temat JS <br>
+-kiedy powstała<br>
+W 1995 roku, na mocy porozumienia z firmą Sun Microsystems, w zamian za włączenie do przeglądarki Netscape obsługi technologii Java, język otrzymał oficjalną nazwę JavaScript. W grudniu tego samego roku został zaimplementowany w najnowszej wówczas wersji Navigatora i rozpoczął triumfalny pochód przez Sieć. <br>
+-dlaczego jest to język skryptowy <br>
+Nie musi zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania. <br>
+-gdzie jest wykonywany JS (klient lub serwer)<br>
+Wystarczy nam do tego przeglądarka internetowa, która ten język obsługuje – czyli w zasadzie każda z liczących się na rynku aplikacji. <br>
+-dlaczego jest to bezpieczne narzędzie <br>
+Ze względów bezpieczeństwa JavaScript ma znacznie ograniczone uprawnienia dostępu do zasobów komputera, przy użyciu którego przeglądana jest dana strona, a wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu.<br>
+-czy jest to język obiektowy , jeśli tak to dlaczego. <br>
+			
+</p>
+<img src="obraz1.gif" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Konopka()"/>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------
+obraz.html
+
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_Konopka()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<p>
+Teoria: <br>
+a)Uwagi na temat JS <br>
+-kiedy powstała<br>
+W 1995 roku, na mocy porozumienia z firmą Sun Microsystems, w zamian za włączenie do przeglądarki Netscape obsługi technologii Java, język otrzymał oficjalną nazwę JavaScript. W grudniu tego samego roku został zaimplementowany w najnowszej wówczas wersji Navigatora i rozpoczął triumfalny pochód przez Sieć. <br>
+-dlaczego jest to język skryptowy <br>
+Nie musi zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania. <br>
+-gdzie jest wykonywany JS (klient lub serwer)<br>
+Wystarczy nam do tego przeglądarka internetowa, która ten język obsługuje – czyli w zasadzie każda z liczących się na rynku aplikacji. <br>
+-dlaczego jest to bezpieczne narzędzie <br>
+Ze względów bezpieczeństwa JavaScript ma znacznie ograniczone uprawnienia dostępu do zasobów komputera, przy użyciu którego przeglądana jest dana strona, a wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu.<br>
+-czy jest to język obiektowy , jeśli tak to dlaczego. <br>
+Tak, ponieważ jest uruchamiany wyłącznie w przeglądarkach <br>
+</p>
+<img src="obraz1.gif" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Konopka()"/>
+</body>
+</html>

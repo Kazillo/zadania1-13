@@ -1,0 +1,128 @@
+
+<html>
+<head>
+<title>14 </title>
+<script language="JavaScript">
+function WinOpen_Konopka()
+{
+window.open("index2.html","okienko","toolbar=no,directories=no,menubar=no,height=150,width=500,top=800,left=600");
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" name="przycisk" value="Kliknij mnie!" onclick="WinOpen_Konopka(' ')">
+</form>
+</body>
+</html>
+--------------------------------------------------------------------
+index2.html
+
+<html>
+<head>
+<title>26148914 </title>
+<script language="JavaScript">
+function WinOpen_Konopka1()
+{
+window.open("obraz1.html","okno1","toolbar=no,directories=no,menubar=no,height=250,width=350,top=600,left=1300");
+}
+function WinOpen_Konopka2()
+{
+window.open("obraz2.html","okno2","toolbar=no,directories=no,menubar=no,height=250,width=330,top=600,left=300");
+}
+function WinOpen_Konopka3()
+{
+window.open("obraz3.html","okno3","toolbar=no,directories=no,menubar=no,height=250,width=300,top=200,left=1300");
+}
+function WinOpen_Konopka4()
+{
+window.open("obraz4.html","okno4","toolbar=no,directories=no,menubar=no,height=250,width=300,top=200,left=300");
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" name="przycisk" value="obraz1" onclick="WinOpen_Konopka1(' ')">
+<input type="button" name="przycisk" value="obraz2" onclick="WinOpen_Konopka2(' ')">
+<input type="button" name="przycisk" value="obraz3" onclick="WinOpen_Konopka3(' ')">
+<input type="button" name="przycisk" value="obraz4" onclick="WinOpen_Konopka4(' ')">
+</form>
+</body>
+</html>
+---------------------------------------------------------------------------
+obraz1.html
+
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_Konopka()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<h2>A TAMTEN CO ROBI?</h2>
+			
+<img src="obraz1.jpg" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Konopka()"/>
+</body>
+</html>
+-------------------------------------------------------------------------------
+obraz2.html
+
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_Konopka()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<h2>CZAS NA JEDZENIE</h2>
+			
+<img src="obraz2.jpg" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Konopka()"/>
+</body>
+</html>
+---------------------------------------------------------------------------------------
+obraz3.html
+
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_Konopka()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<h2>NAWET NIE PRÓBUJCIE ZABRAĆ MI MOJEJ MYSZY </h2>
+			
+<img src="obraz3.jpg" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Konopka()"/>
+</body>
+</html>
+--------------------------------------------------------------------------------------------
+obraz4.html
+
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_Konopka()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<h2>NIE MACIE ZE MNĄ SZANS</h2>
+			
+<img src="obraz4.jpg" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Konopka()"/>
+</body>
+</html>
+--------------------------------------------------------------------------------------
