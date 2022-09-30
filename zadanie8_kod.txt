@@ -6,11 +6,11 @@
 	<body>
 		<div style="color:green;font-size:39px;">
 		<script language="JavaScript">
-		var D1_fre=prompt("dzien1= ","");
-		var D2_fre=prompt("dzien2= ","");
+		var D1_kon=prompt("dzien1= ","");
+		var D2_kon=prompt("dzien2= ","");
 		var suma;
-		var a=parseFloat(D1_fre);
-		var b=parseFloat(D2_fre);
+		var a=parseFloat(D1_kon);
+		var b=parseFloat(D2_kon);
 		suma=(a*86400)-(b*86400);
 		document.write("ilosc sekund = "+suma+"<br>");
 		</script>
