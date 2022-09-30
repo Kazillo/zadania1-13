@@ -5,11 +5,11 @@
 	<body>
 		<div style="color:navy;font-size:70px;">
 		<script language="JavaScript">
-		var A=prompt("podaj pierwsza liczbe=","");
-		var B=prompt("podaj druga liczbe=","");
+		var A_kon=prompt("podaj pierwsza liczbe=","");
+		var B_kon=prompt("podaj druga liczbe=","");
 		var wzor;
-		var a=parseFloat(A);
-		var b=parseFloat(B);
+		var a=parseFloat(A_kon);
+		var b=parseFloat(B_kon);
 		var kon1;
 		var kon2;
 		var kon3;
