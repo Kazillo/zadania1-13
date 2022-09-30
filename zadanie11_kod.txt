@@ -6,11 +6,11 @@
 	<body>
 		<div style="color:green;font-size:39px;">
 		<script language="JavaScript">
-		var m=prompt("podaj m=","");
+		var m_kon=prompt("podaj m=","");
 		var a1;
 		var a2;
 		var a3;
-		var a=parseFloat(m);
+		var a=parseFloat(m_kon);
 		a1=(a+1);
 		a2=(a1+1);
 		a3=(a1*(a1+1));
